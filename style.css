@@ -1,0 +1,59 @@
+
+body{
+ background : url('R1.jpg');   /* inserer une image*/
+ /* background: linear-gradient(45deg, #f97491, #4764f9);*/
+ /*background: linear-gradient(45deg, #5b71e1,#5b71e1 );*/
+  height: 100vh;
+  background-size: cover ;  /* COVRER TOUTE L'espace*/
+  background-repeat: no-repeat; /* NE LE REPETER*/
+  animation: animateBg 5s linear infinite;
+}
+.formulaire{
+  max-width: 360px;
+  margin: auto;
+  margin-top: 150px;
+ 
+  background-color: rgba(95, 46, 210, 0.3);
+  border-left: 1px solid  rgba(203, 41, 41, 0.3) ;
+  border-top: 1px solid  rgba(255, 255,255, 0.3) ;
+  box-shadow: 20px 20px 40px -6px   rgba(0, 0,0, 0.2);
+  border-radius: 30px;
+  padding:60px;
+  color: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  
+
+
+
+}
+
+@keyframes animateBg {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+}
+h1{
+  color: aliceblue;
+  text-align: center;
+  text-transform: capitalize;
+
+  
+}
+input{
+  width: 100px;
+  margin: 10px 0;
+  outline: none;
+  
+}
+button{
+  width: 30%;
+  border-radius: 14px;
+  padding: 3px;
+  background-color: rgba(90,120,190);
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
